@@ -96,7 +96,7 @@ export const CupidGame = () => {
     <div className="w-full max-w-4xl mx-auto p-4">
       <Card className="overflow-hidden bg-card border-border shadow-xl">
         {/* Header */}
-        <div className="p-6 border-b border-border" style={{ background: 'linear-gradient(135deg, hsl(330 100% 50% / 0.15), hsl(270 100% 60% / 0.15))' }}>
+        <div className="p-6 border-b border-border" style={{ background: 'linear-gradient(135deg, hsl(270 100% 60% / 0.15), hsl(320 100% 60% / 0.15))' }}>
           <h1 className="text-4xl font-bold text-center text-foreground mb-2 flex items-center justify-center gap-2">
             <Heart className="w-8 h-8 fill-heart text-heart animate-pulse" />
             Atrapa a Cupido

@@ -17,33 +17,33 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 330 80% 15%;
 
-    --primary: 330 100% 50%;
+    --primary: 270 100% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 310 85% 92%;
-    --secondary-foreground: 330 80% 25%;
+    --secondary: 280 80% 92%;
+    --secondary-foreground: 270 80% 25%;
 
-    --muted: 310 60% 95%;
-    --muted-foreground: 330 30% 50%;
+    --muted: 280 60% 95%;
+    --muted-foreground: 270 30% 50%;
 
-    --accent: 270 100% 60%;
+    --accent: 320 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 310 40% 90%;
-    --input: 310 40% 90%;
-    --ring: 330 100% 50%;
+    --border: 280 40% 90%;
+    --input: 280 40% 90%;
+    --ring: 270 100% 60%;
 
     --radius: 1rem;
     
-    --game-bg: 330 100% 97%;
-    --cupid: 330 100% 50%;
-    --heart: 330 100% 60%;
+    --game-bg: 280 100% 97%;
+    --cupid: 270 100% 60%;
+    --heart: 320 100% 60%;
     --success: 150 60% 50%;
-    --game-shadow: 330 50% 90%;
-    --gradient-primary: linear-gradient(135deg, hsl(330 100% 50%), hsl(270 100% 60%));
+    --game-shadow: 280 50% 90%;
+    --gradient-primary: linear-gradient(135deg, hsl(270 100% 60%), hsl(320 100% 60%));
 
     --sidebar-background: 0 0% 98%;
 
@@ -72,31 +72,31 @@ All colors MUST be HSL.
     --popover: 330 45% 12%;
     --popover-foreground: 330 20% 95%;
 
-    --primary: 330 100% 50%;
+    --primary: 270 100% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 310 40% 20%;
-    --secondary-foreground: 330 20% 95%;
+    --secondary: 280 40% 20%;
+    --secondary-foreground: 270 20% 95%;
 
-    --muted: 310 40% 20%;
-    --muted-foreground: 330 20% 65%;
+    --muted: 280 40% 20%;
+    --muted-foreground: 270 20% 65%;
 
-    --accent: 270 100% 60%;
+    --accent: 320 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 310 40% 20%;
-    --input: 310 40% 20%;
-    --ring: 330 100% 50%;
+    --border: 280 40% 20%;
+    --input: 280 40% 20%;
+    --ring: 270 100% 60%;
     
-    --game-bg: 330 50% 10%;
-    --cupid: 330 100% 50%;
-    --heart: 330 100% 60%;
+    --game-bg: 280 50% 10%;
+    --cupid: 270 100% 60%;
+    --heart: 320 100% 60%;
     --success: 150 60% 50%;
-    --game-shadow: 330 50% 5%;
-    --gradient-primary: linear-gradient(135deg, hsl(330 100% 50%), hsl(270 100% 60%));
+    --game-shadow: 280 50% 5%;
+    --gradient-primary: linear-gradient(135deg, hsl(270 100% 60%), hsl(320 100% 60%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
