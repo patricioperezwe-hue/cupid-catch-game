@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Heart, Award, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import cupidoImage from "@/assets/cupido.avif";
 
 interface Cupid {
   id: number;
@@ -95,7 +96,7 @@ export const CupidGame = () => {
     <div className="w-full max-w-4xl mx-auto p-4">
       <Card className="overflow-hidden bg-card border-border shadow-xl">
         {/* Header */}
-        <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 p-6 border-b border-border">
+        <div className="p-6 border-b border-border" style={{ background: 'linear-gradient(135deg, hsl(330 100% 50% / 0.15), hsl(270 100% 60% / 0.15))' }}>
           <h1 className="text-4xl font-bold text-center text-foreground mb-2 flex items-center justify-center gap-2">
             <Heart className="w-8 h-8 fill-heart text-heart animate-pulse" />
             Atrapa a Cupido
@@ -204,7 +205,14 @@ export const CupidGame = () => {
                   }}
                 >
                   <div className="relative">
-                    <div className="text-6xl">💘</div>
+                    <img 
+                      src={cupidoImage} 
+                      alt="Cupido" 
+                      className="w-20 h-20 object-contain drop-shadow-lg"
+                      style={{
+                        filter: cupid.caught ? 'brightness(1.5) saturate(2)' : 'none'
+                      }}
+                    />
                     {cupid.caught && (
                       <div className="absolute inset-0 flex items-center justify-center">
                         <span className="text-4xl animate-ping">💥</span>

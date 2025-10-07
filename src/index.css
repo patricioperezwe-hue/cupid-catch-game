@@ -8,41 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 340 100% 98%;
-    --foreground: 340 80% 15%;
+    --background: 330 100% 98%;
+    --foreground: 330 80% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 340 80% 15%;
+    --card-foreground: 330 80% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 340 80% 15%;
+    --popover-foreground: 330 80% 15%;
 
-    --primary: 340 85% 55%;
+    --primary: 330 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 320 75% 92%;
-    --secondary-foreground: 340 80% 25%;
+    --secondary: 310 85% 92%;
+    --secondary-foreground: 330 80% 25%;
 
-    --muted: 320 60% 95%;
-    --muted-foreground: 340 30% 50%;
+    --muted: 310 60% 95%;
+    --muted-foreground: 330 30% 50%;
 
-    --accent: 350 100% 65%;
+    --accent: 270 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 320 40% 90%;
-    --input: 320 40% 90%;
-    --ring: 340 85% 55%;
+    --border: 310 40% 90%;
+    --input: 310 40% 90%;
+    --ring: 330 100% 50%;
 
     --radius: 1rem;
     
-    --game-bg: 340 100% 97%;
-    --cupid: 340 85% 55%;
-    --heart: 0 100% 70%;
+    --game-bg: 330 100% 97%;
+    --cupid: 330 100% 50%;
+    --heart: 330 100% 60%;
     --success: 150 60% 50%;
-    --game-shadow: 340 50% 90%;
+    --game-shadow: 330 50% 90%;
+    --gradient-primary: linear-gradient(135deg, hsl(330 100% 50%), hsl(270 100% 60%));
 
     --sidebar-background: 0 0% 98%;
 
@@ -62,39 +63,40 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 340 50% 8%;
-    --foreground: 340 20% 95%;
+    --background: 330 50% 8%;
+    --foreground: 330 20% 95%;
 
-    --card: 340 45% 12%;
-    --card-foreground: 340 20% 95%;
+    --card: 330 45% 12%;
+    --card-foreground: 330 20% 95%;
 
-    --popover: 340 45% 12%;
-    --popover-foreground: 340 20% 95%;
+    --popover: 330 45% 12%;
+    --popover-foreground: 330 20% 95%;
 
-    --primary: 340 85% 55%;
+    --primary: 330 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 340 40% 20%;
-    --secondary-foreground: 340 20% 95%;
+    --secondary: 310 40% 20%;
+    --secondary-foreground: 330 20% 95%;
 
-    --muted: 340 40% 20%;
-    --muted-foreground: 340 20% 65%;
+    --muted: 310 40% 20%;
+    --muted-foreground: 330 20% 65%;
 
-    --accent: 350 100% 65%;
+    --accent: 270 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 340 40% 20%;
-    --input: 340 40% 20%;
-    --ring: 340 85% 55%;
+    --border: 310 40% 20%;
+    --input: 310 40% 20%;
+    --ring: 330 100% 50%;
     
-    --game-bg: 340 50% 10%;
-    --cupid: 340 85% 55%;
-    --heart: 0 100% 70%;
+    --game-bg: 330 50% 10%;
+    --cupid: 330 100% 50%;
+    --heart: 330 100% 60%;
     --success: 150 60% 50%;
-    --game-shadow: 340 50% 5%;
+    --game-shadow: 330 50% 5%;
+    --gradient-primary: linear-gradient(135deg, hsl(330 100% 50%), hsl(270 100% 60%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
